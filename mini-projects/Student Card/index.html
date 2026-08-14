@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentCard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <section>
+        <h1>Student Card Generator</h1>
+        <form id="student-form">
+            <div> 
+                <label for="name-input">Name: </label>
+                <input type="text" id="name-input" placeholder="Enter name" required>
+            </div>
+            <br>
+            <div>
+                <label for="rollno-input">Roll No.: </label>
+                <input type="text" id="rollno-input" placeholder="Enter Roll No." required>
+            </div>
+            <br>
+            <div>
+                <label for="dept-input">Department: </label>
+                <input type="text" id="dept-input" placeholder="Enter Department" required>
+            </div>
+            <br>
+            <div>
+                <label for="uni-input">University: </label>
+                <input type="text" id="uni-input" placeholder="Enter University" required>
+            </div>
+            <br>
+            <div>
+                <label for="phone-input">Contact: </label>
+                <input type="text" id="phone-input" placeholder="Enter phone no." required>
+            </div>
+            <br>
+        
+
+            <div>
+                <button type="submit"  id="generate-btn" >Generate Card</button>
+            </div>
+        </form>
+
+         <h2>Output Profile Card</h2>
+         <div id="card-container" class="student-card">
+            <p>Your Student Card will appear here</p>
+         </div>
+
+
+    </section>
+    <script src="StudentCard.js"></script>
+</body>
+</html>
