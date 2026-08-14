@@ -1,7 +1,7 @@
 body {
-    margin: 0;
+    margin: 10;
     min-height: 100vh;
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@ body {
         Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
         sans-serif;
 
-    background-color: #f3f4f6;
+    background-color: #c3c4c6;
     color: #222;
 }
 
@@ -25,7 +25,7 @@ section {
 
     background-color: white;
     border-radius: 12px;
-    border: 1px solid #ddd;
+    border: 1px solid #160101;
 }
 
 
